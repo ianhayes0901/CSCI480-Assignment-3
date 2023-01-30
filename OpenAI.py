@@ -16,7 +16,7 @@ import xlwt
 from xlwt import Workbook
 
 
-openai.api_key = "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"
+openai.api_key = "<YOUR API KEY HERE>" #API Key not included for purposes of not leaking my own personal API Key, which I did once accidentally and caused issues
 openai.Model.list()
 
 response = openai.Completion.create(
